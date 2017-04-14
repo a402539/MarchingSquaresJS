@@ -1,3 +1,6 @@
+## Пример для [Бориса](https://OriginalSin.github.io/boris.html) с изображением
+
+
 ## Optimized implementation of the [Marching Squares](http://users.polytech.unice.fr/~lingrand/MarchingCubes/algo.html) algorithm in Javascript
 
 ![canvas](https://cloud.githubusercontent.com/assets/8630763/18348811/e2d33b10-75cd-11e6-8131-9d57140d5508.png)
