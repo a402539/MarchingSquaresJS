@@ -1,4 +1,4 @@
-## Пример для [Бориса](https://OriginalSin.github.io/boris.html) с изображением
+## Пример для [Бориса](https://OriginalSin.github.io/MarchingSquaresJS/boris.html) с изображением
 
 
 ## Optimized implementation of the [Marching Squares](http://users.polytech.unice.fr/~lingrand/MarchingCubes/algo.html) algorithm in Javascript
