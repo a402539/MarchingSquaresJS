@@ -1,5 +1,5 @@
 ## Пример для [Бориса](https://OriginalSin.github.io/MarchingSquaresJS/boris.html) с изображением
-## Пример [Бориса](https://github.io/a402539/MarchingSquaresJS/boris.html) с ромбом и овалом
+## Пример [Бориса](https://a402539.github.io/MarchingSquaresJS/boris.html) с ромбом и овалом
 
 ## Optimized implementation of the [Marching Squares](http://users.polytech.unice.fr/~lingrand/MarchingCubes/algo.html) algorithm in Javascript
 
