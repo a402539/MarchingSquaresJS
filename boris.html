@@ -43,7 +43,9 @@
         canvas.height = 300;
 
         var img1 = document.getElementById("img1");
-			context.drawImage(img1, 220, 490, 300, 300, 0, 0, 300, 300);
+        canvas.width = img1.width;
+        canvas.height = img1.height;
+			context.drawImage(img1, 0, 0, img1.width, img1.height, 0, 0, img1.width, img1.height);
 /*
         //FILL CANVAS WITH A BLOB MADE OF RANDOM LETTERS
         var weights = ["normal", "bold", "bolder", "lighter"];
