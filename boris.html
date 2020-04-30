@@ -193,10 +193,10 @@
 </head>
     <body>
 	
-        <!--
         <img id="img1" src="4.png"></img>
+        <!--
         ar = context.getImageData(0, y, canvas.width, canvas.height).data;
-        ap = new Set{};
+        ap = new Set();
         {}
         for(i=0;i<ar.length;i+=4){if (ap.hasOwnProperty([ar[i],ar[i+1],ar[i+2],ar[i+3]])) ap[[ar[i],ar[i+1],ar[i+2],ar[i+3]]]++; else ap[[ar[i],ar[i+1],ar[i+2],ar[i+3]]]=1;};
         ap
@@ -209,7 +209,15 @@
         0,0,0,255: 1761843,    фон картинки
         255,255,0,255: 46858	 картинка
         -->
+        <!--
         <img id="img1" src="993.png"></img>
+        {0,0,0,0: 1761467, 255,255,0,255: 52618}
+        
+        ar = MarchingSquaresOld.sourceContext.getImageData(0, 0, canvas.width, canvas.height).data;
+        ap = new Set();
+        for(i=0;i<ar.length;i+=4){if (ap.hasOwnProperty([ar[i],ar[i+1],ar[i+2],ar[i+3]])) ap[[ar[i],ar[i+1],ar[i+2],ar[i+3]]]++; else ap[[ar[i],ar[i+1],ar[i+2],ar[i+3]]]=1;};
+        {0,0,0,0: 3564784, 255,255,0,255: 52618}
+        -->
         
         <div id="canvasContainer"></div>
         <div id="controlsDiv">
