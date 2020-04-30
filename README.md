@@ -1,5 +1,25 @@
 ## Пример для [Бориса](https://OriginalSin.github.io/MarchingSquaresJS/boris.html) с изображением
+
 ## Пример [Бориса](https://a402539.github.io/MarchingSquaresJS/boris.html) с ромбом и овалом
+
+Пример с ромбом и овалом работает неправильно, т.к. алгоритм рассчитан на работу с каналом Alpha, причем фоном считается нулевое значние, картинкой - ненулевое,
+но файл содержит данные и каналов RGB:
+
+<img id="img1" src="4.png"></img>
+ap={}
+{}
+for(i=0;i<ar.length;i+=4){if (ap.hasOwnProperty([ar[i],ar[i+1],ar[i+2],ar[i+3]])) ap[[ar[i],ar[i+1],ar[i+2],ar[i+3]]]++; else ap[[ar[i],ar[i+1],ar[i+2],ar[i+3]]]=1;};
+ap
+{0,0,0,0: 766, 255,255,255,255: 28935, 255,242,0,255: 2212, 255,174,201,255: 853}
+Здесь нулевые точки 0,0,0,0 добавляет алгоритм по краям,
+точки 255,255,255,255 - это фон
+точки 255,242,0,255 - ромб
+точки 255,174,201,255 - овал
+
+Проверим скан из картографии
+
+<img id="img1" src="993hole.png"></img>
+
 
 ## Optimized implementation of the [Marching Squares](http://users.polytech.unice.fr/~lingrand/MarchingCubes/algo.html) algorithm in Javascript
 
