@@ -5,20 +5,38 @@
 Пример с ромбом и овалом работает неправильно, т.к. алгоритм рассчитан на работу с каналом Alpha, причем фоном считается нулевое значние, картинкой - ненулевое,
 но файл содержит данные и каналов RGB:
 
+<<<<<<< HEAD
 <img src="4.png"></img>
+=======
+<<<<<<< HEAD
+<img id="img1" src="4.png"></img>
+=======
+<!--<img id="img1" src="4.png"></img>-->
+>>>>>>> 4d79a63470a0d02080428d71b714778e656ee8dd
+>>>>>>> 386ac73e4bbeee8993c5054f44bbf81a7f5bf483
 ap={}
 {}
 for(i=0;i<ar.length;i+=4){if (ap.hasOwnProperty([ar[i],ar[i+1],ar[i+2],ar[i+3]])) ap[[ar[i],ar[i+1],ar[i+2],ar[i+3]]]++; else ap[[ar[i],ar[i+1],ar[i+2],ar[i+3]]]=1;};
 ap
 {0,0,0,0: 766, 255,255,255,255: 28935, 255,242,0,255: 2212, 255,174,201,255: 853}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 386ac73e4bbeee8993c5054f44bbf81a7f5bf483
 Здесь нулевые точки 0,0,0,0 добавляет алгоритм по краям,
 точки 255,255,255,255 - это фон
 точки 255,242,0,255 - ромб
 точки 255,174,201,255 - овал
+<<<<<<< HEAD
+=======
+=======
+-->
+>>>>>>> 4d79a63470a0d02080428d71b714778e656ee8dd
+>>>>>>> 386ac73e4bbeee8993c5054f44bbf81a7f5bf483
 
 Проверим скан из картографии
 
-<img id="img1" src="993hole.png"></img>
+<!--<img id="img1" src="993hole.png"></img>-->
 
 
 ## Optimized implementation of the [Marching Squares](http://users.polytech.unice.fr/~lingrand/MarchingCubes/algo.html) algorithm in Javascript
